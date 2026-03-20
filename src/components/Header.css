@@ -49,7 +49,6 @@
     width: 100%;
 }
 
-/* 🔥 LOGO */
 .logo-img {
     width: 120px;
     height: 90px;
@@ -57,26 +56,24 @@
     border-radius: 10px 0px 10px 0px;
 }
 
-/* 🔥 MOBILE FIX START */
 .navbar-toggler {
     border: none;
 }
 
 .navbar-toggler-icon {
-    filter: invert(1); /* icon visible */
+    filter: invert(1); 
 }
 
-/* Mobile responsive */
 @media (max-width: 991px) {
     .navbar-nav {
         gap: 10px;
         text-align: center;
-        align-items: center;   /* 🔥 fix alignment */
+        align-items: center;   
     }
 
     .custom-navbar {
-        height: auto;   /* 🔥 IMPORTANT (warna menu cut hota hai) */
+        height: auto;   
     }
 }
-/* 🔥 MOBILE FIX END */
+
 
