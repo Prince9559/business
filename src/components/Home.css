@@ -1,0 +1,77 @@
+.why-section {
+  background: linear-gradient(to right, #fff7f0, #ffe4e1);
+  padding: 80px 0;
+}
+#demo {
+  margin-top: 15px; 
+}
+.carousel-item {
+  transition: transform 1s ease-in-out;
+}
+.why-title {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  color: #ff4d4d;
+  letter-spacing: 1px;
+}
+
+.row {
+  row-gap: 30px;
+}
+
+.feature-box {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.feature-box:hover {
+  transform: translateY(-8px) scale(1.02);  
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.feature-box i {
+  font-size: 45px;
+  color: #ff4d4d;
+  margin-bottom: 15px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.feature-box:hover i {
+  transform: rotate(10deg) scale(1.2);
+}
+
+.feature-box h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature-box p {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .why-title {
+    font-size: 28px;
+  }
+
+  .feature-box {
+    padding: 20px;
+    margin: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-box {
+    margin-bottom: 20px;
+  }
+}
